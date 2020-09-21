@@ -3,15 +3,15 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - python=3.7
+  - jupyter
+  - jupyterlab
   - xarray
   - geopandas
-  - python=3.7
   - rasterio
-  - jupyter
   - owslib
   - matplotlib
   - descartes
   - fsspec
   - s3fs
-prefix: /home/stijnvh/miniconda3/envs/DS-geospatial
 
