@@ -1,0 +1,17 @@
+name: DS-geospatial
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - jupyter
+  - jupyterlab
+  - xarray
+  - geopandas
+  - rasterio
+  - owslib
+  - matplotlib
+  - descartes
+  - fsspec
+  - s3fs
+
