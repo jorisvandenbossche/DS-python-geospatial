@@ -29,7 +29,7 @@ In case you would prefer using Github Desktop, see [this tutorial](https://help.
 
 ### Option 2: You are not a git user?
 
-To download the repository to your local machine as a zip-file, click the  `download ZIP` on the repository page <https://github.com/jorisvandenbossche/DS-python-geospatial> (green button "Clone"):
+To download the repository to your local machine as a zip-file, click the  `download ZIP` on the repository page <https://github.com/jorisvandenbossche/DS-python-geospatial> (green button "Code"):
 
 ![Download button](./img/download-button.png)
 
@@ -50,7 +50,7 @@ For first time users and people not fully confident with using the command line,
 
 For more detailed instructions to install Anaconda, check the [Windows](https://docs.anaconda.com/anaconda/install/windows/), [Mac](https://docs.anaconda.com/anaconda/install/mac-os/) or [linux](https://docs.anaconda.com/anaconda/install/linux/) installation tutorial.
 
-**Note:** When you are already familiar to the command line and Python environments you could opt to use Miniconda instead of Anaconda and download it from <https://conda.io/miniconda.html>. The main difference is that Anaconda provides a graphical user interface (Anaconda navigator) and a whole lot of scientific packages (e.g <https://docs.anaconda.com/anaconda/packages/py3.6_win-64/>) when installing, whereas for Miniconda the user needs to install all packages using the command line. On the other hand, Miniconda requires less disk space.
+**Note:** When you are already familiar with the command line and Python environments you could opt to use Miniconda instead of Anaconda and download it from <https://conda.io/miniconda.html>. The main difference is that Anaconda provides a graphical user interface (Anaconda navigator) and a whole lot of scientific packages (e.g <https://docs.anaconda.com/anaconda/packages/py3.8_win-64/>) when installing, whereas for Miniconda the user needs to install all packages using the command line. On the other hand, Miniconda requires less disk space.
 
 #### Option 2: I have installed Anaconda  earlier
 
@@ -99,7 +99,13 @@ Respond with *Yes* by typing `y` when asked. Output will be printed and if no er
 
 ### Test your installation
 
-To check if your packages are properly installed, open the Terminal again and navigate to the course directory (see above). Run the `check_environment.py` script:
+To check if your packages are properly installed, open the Terminal again and navigate to the course directory (see above). First, activate the newly created conda environment:
+
+```
+conda activate DS-geospatial
+```
+
+Then, run the `check_environment.py` script:
 
 ```
 python check_environment.py
