@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Pandas Tutorial - contributing guide
+# Contributing guide
 
 First of all, thanks for considering contributing to the course! 👍
 
