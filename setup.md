@@ -96,6 +96,22 @@ Respond with *Yes* by typing `y` when asked. Output will be printed and if no er
 
 **Note:** If you did use Miniconda instead, create the environment using the same commands/instructions in the terminal (make sure to do the `conda condig ...` steps.).
 
+When finished, keep the Conda Terminal window open (or reopen it). Execute the following commands to check your installation:
+
+```
+conda activate DS-geospatial
+ipython
+```
+
+Within the terminal, a Python session will be started in which you can start writing Python! Type the following command:
+
+```
+import geopandas
+```
+
+If no message is returned, you're all set! If a message (probably an error) returned, contact the instructors. Copy paste the message returned.
+
+
 ## 2. Getting the course materials
 
 ### Option 1: You are a git user?
