@@ -94,7 +94,7 @@ __!__ `FOLDER_PATH_TO_ENVIRONMENT_FILE` should be replaced by the path to the fo
 
 Respond with *Yes* by typing `y` when asked. Output will be printed and if no error occurs, you should have the environment configured with all packages installed.
 
-**Note:** If you did use Miniconda instead, create the environment using the same commands/instructions in the terminal (make sure to do the `conda condig ...` steps.).
+**Note:** If you did use Miniconda instead, create the environment using the same commands/instructions in the terminal (make sure to do the `conda config ...` steps.).
 
 When finished, keep the Conda Terminal window open (or reopen it). Execute the following commands to check your installation:
 
