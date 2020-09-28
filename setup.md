@@ -96,7 +96,7 @@ Respond with *Yes* by typing `y` when asked. Output will be printed and if no er
 
 **Note:** If you did use Miniconda instead, create the environment using the same commands/instructions in the terminal (make sure to do the `conda config ...` steps.).
 
-When finished, keep the Conda Terminal window open (or reopen it). Execute the following commands to check your installation:
+When finished, keep the terminal window open (or reopen it). Execute the following commands to check your installation:
 
 ```
 conda activate DS-geospatial
