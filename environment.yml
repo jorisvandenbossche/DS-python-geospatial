@@ -24,6 +24,16 @@ dependencies:
   - s3fs
   - dask
   - distributed
+  - bokeh
   - intake
+  - intake-xarray
   - ipyleaflet
   - folium
+  - seaborn
+  - hvplot
+  - geoviews
+  - datashader
+  - pygeoprocessing
+  - zarr
+  - h5netcdf
+  - h5py
