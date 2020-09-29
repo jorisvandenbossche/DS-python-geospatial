@@ -1,4 +1,4 @@
-name: DS-geospatial-test
+name: DS-geospatial
 channels:
   - conda-forge
 dependencies:
