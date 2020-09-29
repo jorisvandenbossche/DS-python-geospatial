@@ -19,5 +19,11 @@ dependencies:
   - mapclassify
   - cartopy
   - contextily
+  - geoplot
   - fsspec
   - s3fs
+  - dask
+  - distributed
+  - intake
+  - ipyleaflet
+  - folium
