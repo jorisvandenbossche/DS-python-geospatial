@@ -1,7 +1,6 @@
-name: DS-geospatial
+name: DS-geospatial-test
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - python=3.8
   - jupyter
@@ -11,6 +10,7 @@ dependencies:
   - pandas
   - xarray
   - geopandas
+  - pygeos
   - rasterio
   - owslib
   - rasterstats
