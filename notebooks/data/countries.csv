@@ -22,7 +22,6 @@ BHS,Bahamas,329988,9066.0,North America
 FLK,Falkland Is.,2931,281.8,South America
 -99,Norway,5320045,364700.0,Europe
 GRL,Greenland,57713,2173.0,North America
-ATF,Fr. S. Antarctic Lands,140,16.0,Seven seas (open ocean)
 TLS,Timor-Leste,1291358,4975.0,Asia
 ZAF,South Africa,54841552,739100.0,Africa
 LSO,Lesotho,1958042,6019.0,Africa
@@ -158,7 +157,6 @@ JPN,Japan,126451398,4932000.0,Asia
 PRY,Paraguay,6943739,64670.0,South America
 YEM,Yemen,28036829,73450.0,Asia
 SAU,Saudi Arabia,28571770,1731000.0,Asia
-ATA,Antarctica,4050,810.0,Antarctica
 -99,N. Cyprus,265100,3600.0,Asia
 CYP,Cyprus,1221549,29260.0,Asia
 MAR,Morocco,33986655,282800.0,Africa
