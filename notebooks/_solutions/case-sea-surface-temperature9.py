@@ -1,0 +1,1 @@
+ds_mm.sel(lon=164, lat=[-23.4, 23.4], method="nearest").plot.line(hue="lat");

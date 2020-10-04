@@ -1,0 +1,1 @@
+argo["buoyancy"].plot(yincrease=False)  # xarray decides the plot type when no specific method is used

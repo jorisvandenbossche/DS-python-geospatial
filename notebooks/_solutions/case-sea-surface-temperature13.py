@@ -1,0 +1,1 @@
+(ds_mm.sel(month=1) - ds_mm.sel(month=7)).plot.imshow(vmax=10)
