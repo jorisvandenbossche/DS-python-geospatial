@@ -1,0 +1,45 @@
+code,value,class,group
+111,1,Continuous urban fabric,Continuous urban fabric
+112,2,Discontinuous urban fabric,Discontinuous urban fabric
+121,3,Industrial or commercial units,Industrial or commercial units
+122,4,Road and rail networks and associated land,Transport units
+123,5,Port areas,Transport units
+124,6,Airports,Transport units
+131,7,Mineral extraction sites,"Mine, dump and construction sites"
+132,8,Dump sites,"Mine, dump and construction sites"
+133,9,Construction sites,"Mine, dump and construction sites"
+141,10,Green urban areas,Green urban areas
+142,11,Sport and leisure facilities,Green urban areas
+211,12,Non-irrigated arable land,Agricultural areas 
+212,13,Permanently irrigated land,Agricultural areas 
+213,14,Rice fields,Agricultural areas 
+221,15,Vineyards,Agricultural areas 
+222,16,Fruit trees and berry plantations,Agricultural areas 
+223,17,Olive groves,Agricultural areas 
+231,18,Pastures,Agricultural areas 
+241,19,Annual crops associated with permanent crops,Agricultural areas 
+242,20,Complex cultivation patterns,Agricultural areas 
+243,21,Land principally occupied by agriculture with significant areas of natural vegetation,Agricultural areas 
+244,22,Agro-forestry areas,Agricultural areas 
+311,23,Broad-leaved forest,Forest and seminatural areas
+312,24,Coniferous forest,Forest and seminatural areas
+313,25,Mixed forest,Forest and seminatural areas
+321,26,Natural grasslands,Forest and seminatural areas
+322,27,Moors and heathland,Forest and seminatural areas
+323,28,Sclerophyllous vegetation,Forest and seminatural areas
+324,29,Transitional woodland-shrub,Forest and seminatural areas
+331,30,Beaches dunes sands,Forest and seminatural areas
+332,31,Bare rocks,Forest and seminatural areas
+333,32,Sparsely vegetated areas,Forest and seminatural areas
+334,33,Burnt areas,Forest and seminatural areas
+335,34,Glaciers and perpetual snow,Forest and seminatural areas
+411,35,Inland marshes,Wetlands
+412,36,Peat bogs,Wetlands
+421,37,Salt marshes,Wetlands
+422,38,Salines,Wetlands
+423,39,Intertidal flats,Wetlands
+511,40,Water courses,Water bodies
+512,41,Water bodies,Water bodies
+521,42,Coastal lagoons,Water bodies
+522,43,Estuaries,Water bodies
+523,44,Sea and ocean,Water bodies
