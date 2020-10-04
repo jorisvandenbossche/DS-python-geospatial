@@ -1,0 +1,1 @@
+gdf.plot(column="no2", figsize=(20, 10))

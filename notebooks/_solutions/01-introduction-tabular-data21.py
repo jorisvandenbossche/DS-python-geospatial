@@ -1,0 +1,1 @@
+districts.groupby('arrondissement')['population'].sum()

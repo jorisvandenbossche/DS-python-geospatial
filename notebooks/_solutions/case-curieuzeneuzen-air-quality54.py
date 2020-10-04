@@ -1,0 +1,1 @@
+streets.distance(point).min()

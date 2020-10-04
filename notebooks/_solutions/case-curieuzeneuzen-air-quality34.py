@@ -1,0 +1,1 @@
+raster.plot(vmin=1, vmax=44)

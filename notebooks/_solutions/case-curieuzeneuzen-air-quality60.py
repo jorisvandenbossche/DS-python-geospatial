@@ -1,0 +1,1 @@
+closest_road_type(point, streets)

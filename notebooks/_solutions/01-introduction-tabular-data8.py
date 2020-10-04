@@ -1,0 +1,1 @@
+districts['area'].max() / 1000**2  # or / 10**6

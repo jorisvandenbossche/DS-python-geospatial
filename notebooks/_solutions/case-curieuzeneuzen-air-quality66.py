@@ -1,0 +1,1 @@
+subset = gdf_gent[gdf_gent["road_type"].isin(categories)]

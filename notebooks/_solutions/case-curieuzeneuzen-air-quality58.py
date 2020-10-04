@@ -1,0 +1,1 @@
+streets.loc[idx_closest, "highway"]

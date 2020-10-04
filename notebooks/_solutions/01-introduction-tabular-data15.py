@@ -1,0 +1,1 @@
+arr3["population"].sum()

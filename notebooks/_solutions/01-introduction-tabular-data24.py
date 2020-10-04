@@ -1,0 +1,1 @@
+seaborn.boxplot(x="arrondissement", y="bike_stands", data=stations)

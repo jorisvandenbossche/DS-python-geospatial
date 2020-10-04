@@ -1,0 +1,1 @@
+df[df['campaign'] == "background"]["no2"].mean()

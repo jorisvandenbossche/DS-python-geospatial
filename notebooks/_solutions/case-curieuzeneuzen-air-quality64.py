@@ -1,0 +1,1 @@
+gdf_gent["road_type"].value_counts()

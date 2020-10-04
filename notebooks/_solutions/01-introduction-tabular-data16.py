@@ -1,0 +1,1 @@
+districts[districts['population'] > 50000]
