@@ -1,0 +1,1 @@
+argo.sel(level=[1, 5, 25, 50]).plot.scatter(x="lat", y="temperature", col="level")
