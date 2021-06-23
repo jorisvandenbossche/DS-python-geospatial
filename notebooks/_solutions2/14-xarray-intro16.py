@@ -1,3 +1,2 @@
-# Convert to float and make 65535 equal to Nan
-gent_f = gent.astype(float)
-gent_f = gent_f.where(gent != 65535)
+gent = xr.open_rasterio("./data/gent/raster/2020-09-17_Sentinel_2_L1C_True_color.tiff")
+gent

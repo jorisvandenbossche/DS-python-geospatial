@@ -1,6 +1,3 @@
-# A Sequential colormap `YlGn` with a normalization on the color limits
-import matplotlib.colors as mcolors
-div_norm = mcolors.Normalize(0.1, 0.8)
-fig, ax = plt.subplots(figsize=(14, 5))
-ll = ndvi.plot.imshow(ax=ax, cmap="YlGn", norm=div_norm)
-ax.set_aspect("equal")
+# Rescale the data to 0-1
+b4_data = (b4_data - b4_data.min())/(b4_data.max() - b4_data.min())
+b8_data = (b8_data - b8_data.min())/(b8_data.max() - b8_data.min())

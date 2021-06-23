@@ -1,3 +1,4 @@
-# Rescale the data to 0-1
-b4_data = (b4_data - b4_data.min())/(b4_data.max() - b4_data.min())
-b8_data = (b8_data - b8_data.min())/(b8_data.max() - b8_data.min())
+# Create an image plot
+fig, ax = plt.subplots(figsize=(12, 5))
+img = b4_data_classified.plot.imshow(ax=ax, add_colorbar=False, interpolation="antialiased")
+fig.colorbar(img, values=[0, 1, 2], ticks=[0, 1, 2])

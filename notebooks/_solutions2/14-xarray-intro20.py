@@ -1,2 +1,2 @@
-# Squeeze to 2D float array 
-b4_data = b4_data.sel(band=1).astype(float)
+# Make a RGB plot
+gent_f.plot.imshow(figsize=(9, 5))

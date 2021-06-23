@@ -1,2 +1,2 @@
-# Rescale the data
-b4_data = (b4_data - b4_data.min())/(b4_data.max() - b4_data.min())
+# Make a Grey scale plot
+gent_f.sum(dim="band").plot.imshow(cmap="Greys", figsize=(9, 5))

@@ -1,2 +1,3 @@
-# Make a RGB plot
-gent_f.plot.imshow(figsize=(9, 5))
+# Convert to float and make 65535 equal to Nan
+gent_f = gent.astype(float)
+gent_f = gent_f.where(gent != 65535)
