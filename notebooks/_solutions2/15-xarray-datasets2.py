@@ -1,0 +1,1 @@
+argo.plot.scatter(x="pressure", y="level")
