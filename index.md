@@ -4,7 +4,7 @@
 
 An important aspect of daily work in geographic information science and earth sciences is the handling of potentially large amounts of data. Reading in spatial data, exploring the data, creating visualisations and preparing the data for further analysis may become tedious tasks. Hence, increasing efficiency and reproducibility in this process without the need of a GUI interface is beneficial for many scientists. The usage of high-level scripting languages such as R and Python are increasingly popular for these tasks thanks to the development of GIS oriented packages.
 
-This course trains students to use Python effectively to do these tasks, with a focus on geospatial data. It covers both vector and raster data. The course focuses on introducing the main Python packages for handling such data (GeoPandas, Numpy and Rasterio, Xarray) and how to use those packages for importing, exploring, visualizing and manipulating geospatial data. It is the aim to give the students an understanding of the data structures used in Python to represent geospatial data (geospatial dataframes, (multi-dimensional) arrays and composite netCDF-like multi-dimensional datasets), while also providing pointers to the broader ecosystem of Python packages for GIS and geosciences.
+This course trains students to use Python effectively to do these tasks, with a focus on geospatial data. It covers both vector and raster data. The course focuses on introducing the main Python packages for handling such data (GeoPandas, Xarray, Rasterio) and how to use those packages for importing, exploring, visualizing and manipulating geospatial data. It is the aim to give the students an understanding of the data structures used in Python to represent geospatial data (geospatial dataframes, (multi-dimensional) arrays and composite netCDF-like multi-dimensional datasets), while also providing pointers to the broader ecosystem of Python packages for GIS and geosciences.
 
 The course has been developed as a specialist course for the Doctoral schools of Ghent University, but can be taught to others upon request.
 
@@ -20,9 +20,9 @@ The course does not aim to provide a course in specific spatial analysis and sta
 
 The course is organized as a three day course with following program:
 
-- **Day 1** - Setting up the programming environment with the required packages using the conda package manager, a recap of Python concepts and introduction to GeoPandas and related packages to work with geospatial vector data.
-- **Day 2** - An introduction to numpy and rasterio for working with raster data. More advanced features of GeoPandas for spatial joins and overlays. Combining raster and vector data and more advanced plotting. The acquired skills will immediately be brought into practice to handle real-world data sets.
-- **Day 3** - An introduction to xarray for multi-dimensional netCDF-like datasets. Further case studies to apply the learned skills of the full workshop. The day will end with an overview of other packages that are being used in the geospatial Python ecosystem (to scale to bigger datasets, other visualization frameworks, specialized packages).
+- **Day 1** - Setting up the programming environment with the required packages using the conda package manager and introduction to GeoPandas and related packages to work with geospatial vector data.
+- **Day 2** - More advanced features of GeoPandas for spatial joins and overlays. An introduction to xarray for working with raster data. Combining raster and vector data and more advanced plotting. The acquired skills will immediately be brought into practice to handle real-world data sets.
+- **Day 3** - The use of xarray for spatial data cubes (netcdf-like) and out-of-memory raster data. Case studies to apply the learned skills of the full workshop. Interactive visualisation of spatial data. The day will end with an overview of other packages that are being used in the geospatial Python ecosystem (other visualization frameworks, specialized GIS oriented packages).
 
 ## Getting started
 
