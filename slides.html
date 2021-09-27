@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <title>Python for GIS and Geoscience</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="img/slides.css">
-<!--
     <link rel="stylesheet" href="./img/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--
     <style>
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
       @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
@@ -39,7 +39,7 @@ class: center, middle
 # Python for GIS and Geoscience
 
 Specialist course Doctoral schools of Ghent University,<br>
-5-6-8 October 2020
+4-5-7 October 2021
 
 Joris Van den Bossche, Stijn Van Hoey
 
@@ -82,18 +82,17 @@ For the setup instructions, see the [setup page](https://jorisvandenbossche.gith
 class: left, middle
 
 0. Everyone has conda installed and the environment setup? If not, see [1-install-python-and-the-required-python-packages](https://jorisvandenbossche.github.io/DS-python-geospatial/setup.html#1-install-python-and-the-required-python-packages)
-1. Make sure to (re)download ALL the course material, see [2-getting-the-course-materials](https://jorisvandenbossche.github.io/DS-python-geospatial/setup.html#2-getting-the-course-materials) also if you already did this before. We had to update the material this morning...
+1. Make sure to (re)download ALL the course material, see [2-getting-the-course-materials](https://jorisvandenbossche.github.io/DS-python-geospatial/setup.html#2-getting-the-course-materials) also if you already did this before.
 2. Next, also do section 3 and 4 of the [setup](https://jorisvandenbossche.github.io/DS-python-geospatial/setup.html)
-3. Log in to [Ufora](https://ufora.ugent.be/d2l/home/329089) and enter the course room of the '2020-10-05-morning-session' session
 
-> If you succesfully done 0, 1, 2 and 3, give a thumbs up in the discord `#status` channel.
+> If you succesfully done 0, 1, 2 and 3, put up your `green sticky note` on your laptop screen.
 
 Next:
 
-- Surf to and fill in [the questionnaire](https://hackmd.io/L9fDTVspSbG7BIBJAT2xLQ?both)
-- In Jupyter Lab, start with the 'notebooks/00-jupyter_introduction.ipynb'.
+- Surf to and fill in [the questionnaire](https://hackmd.io/y-oofuH7QD2pbVcRyupmEQ?both)
+- In Jupyter Lab, start with the `notebooks/00-jupyter_introduction.ipynb`.
 
-Installation or setup issues? Post them on the discord `#installation-issues` channel
+> Installation or setup issues? Put up your `orange/red sticky note` on your laptop screen.
 
 ---
 class: center, middle
@@ -113,57 +112,38 @@ class: center, middle
 
 
 ---
-class: center, middle
+class: middle, left
 
-# Why python?
+### Time is divided between
 
----
-class: center, middle
+- group sessions: we explain new concepts (aka 'theory')
+- practise sessions: you work on exercises
 
-# Python is...
+In case of questions, remarks, suggestions, you can always interrupt us and just ask.
 
----
+During practise sessions, use the `orange/red sticky note` on top of your laptop screen to let us know you have a question.
 
-## …WIDESPREAD
-* Large world-wide community ensures **fast development**
-* Used in **scientific** and non-scientific institutes <br> (Google, NASA, ESRI, VMM,...)
-* Python is a standard in **GIS** <br> (commercial and non-commercial tools)
-* **Multiplatform** (linux, windows,…)
+### Status check
 
----
+We will regularly ask for a check (ready with exercise, installation succesfull...). Use the `green sticky note` on top of your laptop screen to say 👍.
 
-## …REPRODUCIBLE
+### Feel lost?
 
-.center[
-
-instead of
-
-> *what did you/I clicked a few months ago?’-style WYSISYG*
-
-]
-
---
-
-## …MULTI-FUNCTIONAL
-
-* Research and development: the python *scientific ecosystem*
-* Webdevelopment (Django, Flask)
-* Daily use: great as ducttape/glue
-* **Automation** of time-consuming returning tasks
-
---
-
-## …OPEN SOURCE
-* No license costs!
+Just ask either one of us, we are here to help you.
 
 ---
+class: middle, center
 
-## ...SO WHAT? The Holy Grail ? No!
-* Commercial packages give specific support  and more direct help-functions (cfr. MATLAB)
-* Commercial packages can be more client-friendly
-* For hard number-crunching stuff, NOT the fastest solution
-* R, Fortran, C++ etc are also ‘widespread’, so python is just a language amongst the others
-* Risk of getting lost in the forest/flood of ‘useful packages’
+![:scale 80%](./img/issuetracker.png)
+
+Report bugs, typo's, suggestions... as issues ([New issue](https://github.com/jorisvandenbossche/DS-python-geospatial/issues/new))
+
+or see the [contributing guidelines](https://github.com/jorisvandenbossche/DS-python-geospatial/blob/master/CONTRIBUTING.md)
+
+---
+class: middle, section_background
+
+# Working with Python
 
 ---
 
@@ -189,7 +169,7 @@ instead of
 Creating a new environment:
 
 ```
-conda create -n my_env python=3.7 pandas
+conda create -n my_env python=3.9 pandas
 
 # or from environment file
 conda env create -f environment.yml
@@ -206,7 +186,6 @@ Install a new package:
 ```
 conda install matplotlib     # if not working, try: pip install ...
 ```
-
 
 List all installed packages: `conda list`
 
@@ -225,11 +204,8 @@ conda env export > environment.yml
 ```
 
 ---
-class: middle, section_background
 
-# Working with Python
-
----
+# Writing Python code
 
 ## IPython console
 
@@ -247,12 +223,12 @@ class: middle, section_background
 
 ---
 
-## Jupyter Notebook
+## Jupyter Notebook/Lab
 <small>(*previously called IPython notebook*)</small>
 
 **Jupyter notebook** provides an **interactive** scripting environment,<br> ideal for exploration, prototyping,...
 
-.center[![:scale 70%](./img/notebook.png)]
+.center[![:scale 90%](./img/notebook.png)]
 
 --
 
@@ -260,46 +236,16 @@ class: middle, section_background
 
 
 ---
-class: middle, left
+class: middle, center
 
-### Time is divided between
+## Let's start!
 
-- group sessions: we explain new concepts (aka 'theory')
-- break-out sessions: you work on exercises
-
-In case of questions, remarks, suggestions, you can always post messages in the discord `#daily-channel`
-
-### Status check
-
-We will regularly ask for a check (ready with exercise, installation succesfull...). Use the discord `#status` channel to put 👍 (`thumbs up`).
-
-### Feel lost?
-
-Feel free to send a discord direct message to one of us, we are stand by.
-
+see Jupyter notebooks in the `notebooks` subfolder
 
 ---
 class: middle, center
-
-![:scale 80%](./img/issuetracker.png)
-
-Report bugs, typo's, suggestions... as issues ([New issue](https://github.com/jorisvandenbossche/DS-python-geospatial/issues/new))
-
-or see the [contributing guidelines](https://github.com/jorisvandenbossche/DS-python-geospatial/blob/master/CONTRIBUTING.md)
-
----
-class: middle, center
-
-
-## Let's start
-
-
----
-class: middle, center
-
 
 ...
-
 
 ---
 class: center, middle
@@ -308,7 +254,7 @@ class: center, middle
 
 ![:scale 100%](http://esq.h-cdn.co/assets/15/51/980x490/landscape-1450137389-john-cleese.JPG)
 
-### https://forms.gle/PhxSAW768fTBqLJz8
+### https://forms.gle/73z1ggZpxXRYnQfz7
 
 Please fill in the questionnaire!
 
@@ -420,7 +366,7 @@ Several more domain/application specific packages:
 
 **xgcm** (https://xgcm.readthedocs.io/en/latest/index.html): working with output from General Circulation Models
 
-**osmnx** (https://github.com/gboeing/osmnx): street networks 
+**osmnx** (https://github.com/gboeing/osmnx): street networks
 
 **...**
 
