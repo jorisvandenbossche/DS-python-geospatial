@@ -1,1 +1,1 @@
-streets.distance(point)
+streets = streets.to_crs("EPSG:31370")

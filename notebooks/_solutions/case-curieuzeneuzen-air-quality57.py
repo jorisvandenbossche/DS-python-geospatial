@@ -1,1 +1,1 @@
-streets["highway"][idx_closest]
+streets.distance(point).min()

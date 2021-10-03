@@ -1,0 +1,1 @@
+dem_masked.plot.imshow(robust=True, cmap="terrain")

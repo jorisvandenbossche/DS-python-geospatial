@@ -1,1 +1,1 @@
-gdf_gent = gdf_lambert[gdf_lambert.within(gent_region)]
+seaborn.boxplot(y="land_use_class", x="no2", data=subset)

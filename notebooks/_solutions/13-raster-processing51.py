@@ -1,0 +1,1 @@
+green_area10 = green_area.sel(stats="sum").where(green_area.sel(stats="sum") > 10, 0)

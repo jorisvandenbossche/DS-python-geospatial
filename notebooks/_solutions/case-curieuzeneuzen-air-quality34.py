@@ -1,1 +1,2 @@
-raster.plot(vmin=1, vmax=44)
+gdf_raster = gdf.to_crs("EPSG:3035")
+gdf_raster.head()

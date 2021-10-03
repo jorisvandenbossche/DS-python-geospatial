@@ -1,0 +1,1 @@
+suitable_locations = land_use_residential * (dem_gent > 10)

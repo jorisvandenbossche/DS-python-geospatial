@@ -1,1 +1,5 @@
-gdf_gent["road_type"] = gdf_gent.geometry.apply(lambda point: closest_road_type(point, streets_unioned))
+def closest_road_type(point, streets):
+    """Type to the nearest road (OpenStreetMap)"""
+    dist = streets.distance(point)
+    idx_closest = dist.idxmin()
+    return streets.loc[idx_closest, "highway"]

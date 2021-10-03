@@ -1,0 +1,1 @@
+era5_renamed["temperature_c"].plot.hist(bins=50);

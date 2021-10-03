@@ -1,0 +1,1 @@
+land_use_reprojected.plot.imshow(robust=True)

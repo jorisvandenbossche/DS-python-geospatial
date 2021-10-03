@@ -1,4 +1,1 @@
-import xarray
-
-raster = xarray.open_rasterio("data/CLC2018_V2020_20u1_flanders.tif")
-raster
+raster.plot(vmin=1, vmax=44)

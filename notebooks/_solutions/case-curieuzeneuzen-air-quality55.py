@@ -1,2 +1,1 @@
-idx_closest = streets.distance(point).idxmin()
-idx_closest
+streets.plot(column="highway", figsize=(20, 20), legend=True, cmap="tab20")

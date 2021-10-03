@@ -1,2 +1,3 @@
-# Convert the series to a DataFrame and specify column name
-trees_by_district = trees_by_district.to_frame(name='n_trees')
+# Merge the 'districts' and 'trees_by_district' dataframes
+districts_trees = pd.merge(districts, trees_by_district, on='district_name')
+districts_trees.head()

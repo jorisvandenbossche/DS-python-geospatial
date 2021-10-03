@@ -1,1 +1,1 @@
-streets.distance(point).min()
+streets.plot()

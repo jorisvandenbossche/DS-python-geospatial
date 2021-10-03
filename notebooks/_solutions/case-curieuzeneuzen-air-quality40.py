@@ -1,1 +1,1 @@
-import seaborn
+frequent_categories = counts[counts > 50].index

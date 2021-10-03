@@ -1,1 +1,1 @@
-gdf_gent["road_type"].value_counts()
+streets_unioned = streets.dissolve("highway").reset_index()

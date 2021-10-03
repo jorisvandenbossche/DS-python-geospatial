@@ -1,1 +1,2 @@
-streets.plot(column="highway", figsize=(20, 20), legend=True, cmap="tab20")
+streets = geopandas.read_file("data/osm_network_gent.gpkg")
+streets.head()

@@ -1,0 +1,1 @@
+era5_renamed["temperature_c"] = era5_renamed["temperature_k"] - 273.15

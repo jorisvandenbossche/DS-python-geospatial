@@ -1,0 +1,1 @@
+(dem_gent > 10).plot.imshow()

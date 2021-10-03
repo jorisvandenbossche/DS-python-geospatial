@@ -1,0 +1,1 @@
+green_arr.plot.imshow()

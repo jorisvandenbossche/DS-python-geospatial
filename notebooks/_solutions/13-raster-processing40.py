@@ -1,0 +1,1 @@
+suitable_locations.plot.imshow()

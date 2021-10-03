@@ -1,1 +1,1 @@
-streets_unioned = streets.dissolve("highway").reset_index()
+streets.loc[idx_closest, "highway"]

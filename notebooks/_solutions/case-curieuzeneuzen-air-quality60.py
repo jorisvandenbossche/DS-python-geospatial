@@ -1,1 +1,1 @@
-closest_road_type(point, streets)
+streets["highway"][idx_closest]

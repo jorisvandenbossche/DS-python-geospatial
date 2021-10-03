@@ -1,0 +1,1 @@
+green_area.sel(stats="sum").plot.imshow()

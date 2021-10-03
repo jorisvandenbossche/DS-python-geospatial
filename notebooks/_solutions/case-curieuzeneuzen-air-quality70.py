@@ -1,1 +1,1 @@
-seaborn.boxplot(x="road_type", y="no2", data=subset, order=categories)
+subset.groupby("road_type").size()  # subset["road_type"].value_counts()
