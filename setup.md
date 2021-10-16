@@ -41,12 +41,6 @@ Type following command + ENTER-button (make sure you have an internet connection
 conda update -n root conda
 ```
 
-when finished, type (+ ENTER-button):
-
-```
-conda update --all
-```
-
 and respond with *Yes* by typing `y`. Packages should be updated after the completion of the command.
 
 ### Setup after installation
@@ -121,8 +115,8 @@ As the course has been setup as a [git](https://git-scm.com/) repository managed
 Use the command line to clone the repository and go into the course folder:
 
 ```
-> git clone https://github.com/jorisvandenbossche/DS-python-geospatial.git
-> cd DS-python-geospatial
+git clone https://github.com/jorisvandenbossche/DS-python-geospatial.git
+cd DS-python-geospatial
 ```
 
 In case you would prefer using Github Desktop, see [this tutorial](https://help.github.com/desktop/guides/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop/).
@@ -179,7 +173,7 @@ Each of the course modules is set up as a [Jupyter notebook](http://jupyter.org/
 * Start a jupyter notebook server by typing
 
   ```
-  $ jupyter lab
+  jupyter lab
   ```
 
 ### Option 2: Using Anaconda Navigator
