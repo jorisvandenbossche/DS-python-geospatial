@@ -1,3 +1,2 @@
-# Convert to float and make 65535 equal to Nan
-b4_data_f = b4_data.astype(float)
-b4_data_f = b4_data_f.where(b4_data != 65535)
+b4_data = xr.open_dataarray("./data/gent/raster/2020-09-17_Sentinel_2_L1C_B04.tiff", 
+                            engine="rasterio", mask_and_scale=False)

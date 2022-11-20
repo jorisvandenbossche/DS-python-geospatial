@@ -1,4 +1,5 @@
 fig, ax = plt.subplots()
-stations["bike_stands"].hist(ax=ax, alpha=.5, label="Total bike stands")
-stations["available_bikes"].hist(ax=ax, alpha=.5, label="Available bikes")
+stations["bike_stands"].plot.hist(ax=ax, alpha=.5, label="Total bike stands")
+stations["available_bikes"].plot.hist(ax=ax, alpha=.5, label="Available bikes")
 ax.legend()
+ax.grid()

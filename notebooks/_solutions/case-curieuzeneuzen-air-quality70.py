@@ -1,1 +1,1 @@
-subset.groupby("road_type").size()  # subset["road_type"].value_counts()
+subset = gdf_gent[gdf_gent["road_type"].isin(categories)]

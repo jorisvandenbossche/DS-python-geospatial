@@ -1,4 +1,3 @@
-# As a quick reference, plot using the `"Greens"` colormap as such:
-fig, ax = plt.subplots(figsize=(14, 5))
-ll = ndvi.plot.imshow(ax=ax, cmap="Greens")
-ax.set_aspect("equal")
+# Rescale the data to 0-1
+b4_data = (b4_data - b4_data.min())/(b4_data.max() - b4_data.min())
+b8_data = (b8_data - b8_data.min())/(b8_data.max() - b8_data.min())

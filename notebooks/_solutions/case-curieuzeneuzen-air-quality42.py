@@ -1,1 +1,1 @@
-subset.groupby("land_use_class")['no2'].mean()
+subset = gdf[gdf["land_use_class"].isin(frequent_categories)]

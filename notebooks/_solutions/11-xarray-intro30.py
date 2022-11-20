@@ -1,2 +1,2 @@
-# Classify the array into 3 bins
-b4_data_classified = xr.apply_ufunc(np.digitize, b4_data, [0.05, 0.1])
+# Convert to 2D float array 
+b4_data = b4_data.sel(band=1).astype(float)

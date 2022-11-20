@@ -1,1 +1,1 @@
-import contextily
+len(gdf_gent)

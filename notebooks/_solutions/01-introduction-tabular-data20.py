@@ -1,1 +1,1 @@
-districts['population'].hist()  # or .plot(kind="hist")
+districts['population'].plot.hist()  # or .plot(kind="hist")

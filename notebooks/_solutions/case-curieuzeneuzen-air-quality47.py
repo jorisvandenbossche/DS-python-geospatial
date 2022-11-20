@@ -1,1 +1,2 @@
-gdf_gent = gdf_lambert[gdf_lambert.within(gent_region)]
+gent_region = gent.envelope
+gent_region

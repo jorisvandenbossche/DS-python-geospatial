@@ -1,1 +1,1 @@
-subset.groupby("road_type")['no2'].mean()
+subset.groupby("road_type").size()  # subset["road_type"].value_counts()

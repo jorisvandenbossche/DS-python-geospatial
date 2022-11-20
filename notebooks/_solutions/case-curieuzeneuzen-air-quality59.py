@@ -1,1 +1,2 @@
-streets.loc[idx_closest]
+idx_closest = streets.distance(point).idxmin()
+idx_closest

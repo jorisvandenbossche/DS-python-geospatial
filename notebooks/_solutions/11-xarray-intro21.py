@@ -1,2 +1,2 @@
-# Make a Grey scale plot
-gent_f.sum(dim="band").plot.imshow(cmap="Greys", figsize=(9, 5))
+# Divide by the maximum of the int16 range to get [0-1] data
+gent_f = gent_f / 2**16

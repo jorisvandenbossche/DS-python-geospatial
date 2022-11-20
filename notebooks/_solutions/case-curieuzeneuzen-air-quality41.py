@@ -1,1 +1,1 @@
-subset = gdf[gdf["land_use_class"].isin(frequent_categories)]
+frequent_categories = counts.index[counts > 50]

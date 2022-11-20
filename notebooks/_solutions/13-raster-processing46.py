@@ -1,1 +1,1 @@
-green_arr.plot.imshow()
+green_arr = xr.DataArray(green_arr, coords=dem_gent.coords)

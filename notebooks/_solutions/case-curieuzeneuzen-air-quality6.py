@@ -1,1 +1,1 @@
-df['no2'].hist()  # plot.hist()
+df['no2'].plot.hist()
