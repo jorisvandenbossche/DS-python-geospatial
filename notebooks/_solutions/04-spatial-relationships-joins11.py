@@ -1,1 +1,1 @@
-joined = geopandas.sjoin(stations, districts[['district_name', 'geometry']], op='within')
+joined = geopandas.sjoin(stations, districts[['district_name', 'geometry']], predicate='within')

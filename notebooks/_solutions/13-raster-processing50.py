@@ -1,1 +1,2 @@
-xr.DataArray(green_area_arr, coords=dem_gent.coords).plot.imshow(vmin=0)
+%%time
+green_area_arr = signal.convolve(green_arr, kernel, mode='same')

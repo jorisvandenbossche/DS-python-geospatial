@@ -1,1 +1,1 @@
-import seaborn
+subset.groupby("road_type")['no2'].mean()

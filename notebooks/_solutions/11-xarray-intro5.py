@@ -1,2 +1,3 @@
-# Convert all values above 15000
-tc_g.where(tc_g < 15000, 65535)
+# Get the green channel
+tc_g = tc_data.sel(band=2)
+tc_g

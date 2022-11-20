@@ -8,6 +8,7 @@ dependencies:
   - jupyterlab>3
   - numpy
   - pandas
+  # pinning to avoid scatter regression (https://github.com/pydata/xarray/discussions/7268)
   - xarray=2022.09
   - geopandas
   - pygeos
@@ -36,7 +37,7 @@ dependencies:
   - hvplot
   - geoviews
   - datashader
-  - cmocean
+  - cmocean 
   - pygeoprocessing
   - zarr
   - h5netcdf

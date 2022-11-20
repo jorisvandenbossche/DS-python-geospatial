@@ -1,1 +1,1 @@
-streets.plot()
+streets = streets.to_crs("EPSG:31370")

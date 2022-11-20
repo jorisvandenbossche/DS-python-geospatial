@@ -1,4 +1,3 @@
-# Create the histogram plots
-fig, (ax0, ax1) = plt.subplots(1, 2, sharey=True)
-b4_data.plot.hist(bins=30, log=True, ax=ax0)
-b4_data_f.plot.hist(bins=30, log=True, ax=ax1);
+# Convert to float and make 65535 equal to Nan
+b4_data_f = b4_data.astype(float)
+b4_data_f = b4_data_f.where(b4_data != 65535)

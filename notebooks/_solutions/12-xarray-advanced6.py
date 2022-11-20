@@ -1,1 +1,1 @@
-era5_renamed.plot.scatter("temperature_c", "speed_of_sound_m_s", s=1, alpha=0.1)
+era5_renamed.plot.scatter(x="temperature_c", y="speed_of_sound_m_s")

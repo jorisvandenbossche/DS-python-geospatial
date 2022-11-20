@@ -1,0 +1,1 @@
+seaborn.boxplot(x="road_type", y="no2", data=subset, order=categories)

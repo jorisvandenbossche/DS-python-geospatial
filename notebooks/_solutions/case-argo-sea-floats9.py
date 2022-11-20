@@ -1,1 +1,1 @@
-argo.plot.scatter(x="temperature", y="level", hue="lat", s=2)
+argo.plot.scatter(x="temperature", y="level", s=3, hue="lat")

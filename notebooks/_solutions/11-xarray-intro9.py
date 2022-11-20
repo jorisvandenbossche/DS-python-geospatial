@@ -1,2 +1,2 @@
-# Count the number of cells with value 65535
-np.sum(b4_data == 65535)
+# subsample the data
+tc_data[:, ::5, ::5].shape

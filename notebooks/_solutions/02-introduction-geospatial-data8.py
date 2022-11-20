@@ -1,1 +1,1 @@
-stations['bike_stands'].hist()
+stations['bike_stands'].plot.hist()

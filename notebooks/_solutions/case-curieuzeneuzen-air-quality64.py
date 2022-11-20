@@ -1,1 +1,1 @@
-streets_unioned = streets.dissolve("highway").reset_index()
+closest_road_type(point, streets)
