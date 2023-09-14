@@ -7,7 +7,8 @@ dependencies:
   - jupyter
   - jupyterlab>3
   - numpy
-  - pandas
+  # pinning pandas temporary because 2.1 causes warnings with geopandas and seaborn
+  - pandas=2.0
   - xarray
   - geopandas
   - rasterio
