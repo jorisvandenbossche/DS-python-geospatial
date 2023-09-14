@@ -2,7 +2,7 @@ name: DS-geospatial
 channels:
   - conda-forge
 dependencies:
-  - python=3.1&
+  - python=3.11
   - ipython
   - jupyter
   - jupyterlab>3
