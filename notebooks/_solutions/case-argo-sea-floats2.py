@@ -1,1 +1,1 @@
-argo.plot.scatter(x="pressure", y="level")
+argo.plot.scatter(x="pressure", y="level", edgecolor="None", s=10)
