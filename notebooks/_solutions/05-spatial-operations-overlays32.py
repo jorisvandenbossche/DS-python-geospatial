@@ -1,1 +1,1 @@
-urban_green_fraction.nsmallest()
+urban_green_fraction.nsmallest(20)
