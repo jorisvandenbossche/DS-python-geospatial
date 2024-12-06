@@ -2,13 +2,12 @@ name: DS-geospatial
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
+  - python=3.12
   - ipython
   - jupyter
   - jupyterlab>3
   - numpy
-  # pinning pandas temporary because 2.1 causes warnings with geopandas and seaborn
-  - pandas=2.0
+  - pandas
   - xarray
   - geopandas
   - rasterio
@@ -36,7 +35,6 @@ dependencies:
   - geoviews
   - datashader
   - cmocean 
-  - pygeoprocessing
   - zarr
   - h5netcdf
   - h5py
