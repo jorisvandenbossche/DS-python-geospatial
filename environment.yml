@@ -6,4 +6,27 @@ dependencies:
   - ipython
   - jupyter
   - jupyterlab
+  - numpy
+  - pandas
+  - xarray
   - geopandas
+  - rasterio
+  - owslib
+  - rasterstats
+  - matplotlib
+  - mapclassify
+  - cartopy
+  - contextily
+  - geoplot
+  - fsspec
+  - s3fs
+  - ipympl
+  - ipyleaflet
+  - folium
+  - seaborn
+  - hvplot
+  - geoviews
+  - datashader
+  - cmocean 
+  - zarr
+  - rioxarray
